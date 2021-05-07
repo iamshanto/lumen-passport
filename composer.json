@@ -1,5 +1,5 @@
 {
-    "name": "iamshanto/lumen-passport",
+    "name": "iamshanto/passport-mongodb",
     "description": "Fork Laravel Passport support to mongodb.",
     "keywords": ["laravel", "passport", "oauth", "mongodb"],
     "license": "MIT",
