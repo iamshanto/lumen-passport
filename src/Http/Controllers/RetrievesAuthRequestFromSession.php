@@ -4,8 +4,8 @@ namespace Lumen\Passport\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
-use Laravel\Passport\Bridge\User;
-use Laravel\Passport\Exceptions\InvalidAuthTokenException;
+use Lumen\Passport\Bridge\User;
+use Lumen\Passport\Exceptions\InvalidAuthTokenException;
 
 trait RetrievesAuthRequestFromSession
 {
@@ -15,7 +15,7 @@ trait RetrievesAuthRequestFromSession
      * @param  \Illuminate\Http\Request  $request
      * @return void
      *
-     * @throws \Laravel\Passport\Exceptions\InvalidAuthTokenException
+     * @throws \Lumen\Passport\Exceptions\InvalidAuthTokenException
      */
     protected function assertValidAuthToken(Request $request)
     {

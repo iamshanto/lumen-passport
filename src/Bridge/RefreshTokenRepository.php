@@ -3,8 +3,8 @@
 namespace Lumen\Passport\Bridge;
 
 use Illuminate\Contracts\Events\Dispatcher;
-use Laravel\Passport\Events\RefreshTokenCreated;
-use Laravel\Passport\RefreshTokenRepository as PassportRefreshTokenRepository;
+use Lumen\Passport\Events\RefreshTokenCreated;
+use Lumen\Passport\RefreshTokenRepository as PassportRefreshTokenRepository;
 use League\OAuth2\Server\Entities\RefreshTokenEntityInterface;
 use League\OAuth2\Server\Repositories\RefreshTokenRepositoryInterface;
 
@@ -27,7 +27,7 @@ class RefreshTokenRepository implements RefreshTokenRepositoryInterface
     /**
      * Create a new repository instance.
      *
-     * @param  \Laravel\Passport\RefreshTokenRepository  $refreshTokenRepository
+     * @param  \Lumen\Passport\RefreshTokenRepository  $refreshTokenRepository
      * @param  \Illuminate\Contracts\Events\Dispatcher  $events
      * @return void
      */

@@ -10,11 +10,11 @@ use Illuminate\Contracts\Encryption\Encrypter;
 use Illuminate\Cookie\CookieValuePrefix;
 use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Http\Request;
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Passport;
-use Laravel\Passport\PassportUserProvider;
-use Laravel\Passport\TokenRepository;
-use Laravel\Passport\TransientToken;
+use Lumen\Passport\ClientRepository;
+use Lumen\Passport\Passport;
+use Lumen\Passport\PassportUserProvider;
+use Lumen\Passport\TokenRepository;
+use Lumen\Passport\TransientToken;
 use League\OAuth2\Server\Exception\OAuthServerException;
 use League\OAuth2\Server\ResourceServer;
 use Nyholm\Psr7\Factory\Psr17Factory;
@@ -32,21 +32,21 @@ class TokenGuard
     /**
      * The user provider implementation.
      *
-     * @var \Laravel\Passport\PassportUserProvider
+     * @var \Lumen\Passport\PassportUserProvider
      */
     protected $provider;
 
     /**
      * The token repository instance.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \Lumen\Passport\TokenRepository
      */
     protected $tokens;
 
     /**
      * The client repository instance.
      *
-     * @var \Laravel\Passport\ClientRepository
+     * @var \Lumen\Passport\ClientRepository
      */
     protected $clients;
 
@@ -61,9 +61,9 @@ class TokenGuard
      * Create a new token guard instance.
      *
      * @param  \League\OAuth2\Server\ResourceServer  $server
-     * @param  \Laravel\Passport\PassportUserProvider  $provider
-     * @param  \Laravel\Passport\TokenRepository  $tokens
-     * @param  \Laravel\Passport\ClientRepository  $clients
+     * @param  \Lumen\Passport\PassportUserProvider  $provider
+     * @param  \Lumen\Passport\TokenRepository  $tokens
+     * @param  \Lumen\Passport\ClientRepository  $clients
      * @param  \Illuminate\Contracts\Encryption\Encrypter  $encrypter
      * @return void
      */

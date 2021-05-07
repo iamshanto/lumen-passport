@@ -5,15 +5,15 @@ namespace Lumen\Passport\Http\Controllers;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Laravel\Passport\Passport;
-use Laravel\Passport\TokenRepository;
+use Lumen\Passport\Passport;
+use Lumen\Passport\TokenRepository;
 
 class PersonalAccessTokenController
 {
     /**
      * The token repository implementation.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \Lumen\Passport\TokenRepository
      */
     protected $tokenRepository;
 
@@ -27,7 +27,7 @@ class PersonalAccessTokenController
     /**
      * Create a controller instance.
      *
-     * @param  \Laravel\Passport\TokenRepository  $tokenRepository
+     * @param  \Lumen\Passport\TokenRepository  $tokenRepository
      * @param  \Illuminate\Contracts\Validation\Factory  $validation
      * @return void
      */
@@ -56,7 +56,7 @@ class PersonalAccessTokenController
      * Create a new personal access token for the user.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Laravel\Passport\PersonalAccessTokenResult
+     * @return \Lumen\Passport\PersonalAccessTokenResult
      */
     public function store(Request $request)
     {

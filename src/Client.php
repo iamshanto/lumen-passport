@@ -5,7 +5,7 @@ namespace Lumen\Passport;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Support\Str;
-use Laravel\Passport\Database\Factories\ClientFactory;
+use Lumen\Passport\Database\Factories\ClientFactory;
 
 class Client extends Model
 {

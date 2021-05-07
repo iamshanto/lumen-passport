@@ -20,14 +20,14 @@ class PersonalAccessTokenFactory
     /**
      * The client repository instance.
      *
-     * @var \Laravel\Passport\ClientRepository
+     * @var \Lumen\Passport\ClientRepository
      */
     protected $clients;
 
     /**
      * The token repository instance.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \Lumen\Passport\TokenRepository
      */
     protected $tokens;
 
@@ -44,8 +44,8 @@ class PersonalAccessTokenFactory
      * Create a new personal access token factory instance.
      *
      * @param  \League\OAuth2\Server\AuthorizationServer  $server
-     * @param  \Laravel\Passport\ClientRepository  $clients
-     * @param  \Laravel\Passport\TokenRepository  $tokens
+     * @param  \Lumen\Passport\ClientRepository  $clients
+     * @param  \Lumen\Passport\TokenRepository  $tokens
      * @param  \Lcobucci\JWT\Parser  $jwt
      * @return void
      */
@@ -66,7 +66,7 @@ class PersonalAccessTokenFactory
      * @param  mixed  $userId
      * @param  string  $name
      * @param  array  $scopes
-     * @return \Laravel\Passport\PersonalAccessTokenResult
+     * @return \Lumen\Passport\PersonalAccessTokenResult
      */
     public function make($userId, $name, array $scopes = [])
     {
@@ -89,7 +89,7 @@ class PersonalAccessTokenFactory
     /**
      * Create a request instance for the given client.
      *
-     * @param  \Laravel\Passport\Client  $client
+     * @param  \Lumen\Passport\Client  $client
      * @param  mixed  $userId
      * @param  array  $scopes
      * @return \Psr\Http\Message\ServerRequestInterface
@@ -124,7 +124,7 @@ class PersonalAccessTokenFactory
      * Get the access token instance for the parsed response.
      *
      * @param  array  $response
-     * @return \Laravel\Passport\Token
+     * @return \Lumen\Passport\Token
      */
     protected function findAccessToken(array $response)
     {

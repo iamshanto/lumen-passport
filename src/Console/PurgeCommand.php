@@ -4,7 +4,7 @@ namespace Lumen\Passport\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;
-use Laravel\Passport\Passport;
+use Lumen\Passport\Passport;
 
 class PurgeCommand extends Command
 {

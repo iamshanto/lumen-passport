@@ -3,14 +3,14 @@
 namespace Lumen\Passport\Http\Middleware;
 
 use Illuminate\Auth\AuthenticationException;
-use Laravel\Passport\Exceptions\MissingScopeException;
+use Lumen\Passport\Exceptions\MissingScopeException;
 
 class CheckClientCredentialsForAnyScope extends CheckCredentials
 {
     /**
      * Validate token credentials.
      *
-     * @param  \Laravel\Passport\Token  $token
+     * @param  \Lumen\Passport\Token  $token
      * @return void
      *
      * @throws \Illuminate\Auth\AuthenticationException
@@ -25,11 +25,11 @@ class CheckClientCredentialsForAnyScope extends CheckCredentials
     /**
      * Validate token credentials.
      *
-     * @param  \Laravel\Passport\Token  $token
+     * @param  \Lumen\Passport\Token  $token
      * @param  array  $scopes
      * @return void
      *
-     * @throws \Laravel\Passport\Exceptions\MissingScopeException
+     * @throws \Lumen\Passport\Exceptions\MissingScopeException
      */
     protected function validateScopes($token, $scopes)
     {

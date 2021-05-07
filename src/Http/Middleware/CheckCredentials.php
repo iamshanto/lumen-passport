@@ -4,7 +4,7 @@ namespace Lumen\Passport\Http\Middleware;
 
 use Closure;
 use Illuminate\Auth\AuthenticationException;
-use Laravel\Passport\TokenRepository;
+use Lumen\Passport\TokenRepository;
 use League\OAuth2\Server\Exception\OAuthServerException;
 use League\OAuth2\Server\ResourceServer;
 use Nyholm\Psr7\Factory\Psr17Factory;
@@ -22,7 +22,7 @@ abstract class CheckCredentials
     /**
      * Token Repository.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \Lumen\Passport\TokenRepository
      */
     protected $repository;
 
@@ -30,7 +30,7 @@ abstract class CheckCredentials
      * Create a new middleware instance.
      *
      * @param  \League\OAuth2\Server\ResourceServer  $server
-     * @param  \Laravel\Passport\TokenRepository  $repository
+     * @param  \Lumen\Passport\TokenRepository  $repository
      * @return void
      */
     public function __construct(ResourceServer $server, TokenRepository $repository)
@@ -76,7 +76,7 @@ abstract class CheckCredentials
      * @param  array  $scopes
      * @return void
      *
-     * @throws \Laravel\Passport\Exceptions\MissingScopeException|\Illuminate\Auth\AuthenticationException
+     * @throws \Lumen\Passport\Exceptions\MissingScopeException|\Illuminate\Auth\AuthenticationException
      */
     protected function validate($psr, $scopes)
     {
@@ -90,7 +90,7 @@ abstract class CheckCredentials
     /**
      * Validate token credentials.
      *
-     * @param  \Laravel\Passport\Token  $token
+     * @param  \Lumen\Passport\Token  $token
      * @return void
      *
      * @throws \Illuminate\Auth\AuthenticationException
@@ -100,11 +100,11 @@ abstract class CheckCredentials
     /**
      * Validate token scopes.
      *
-     * @param  \Laravel\Passport\Token  $token
+     * @param  \Lumen\Passport\Token  $token
      * @param  array  $scopes
      * @return void
      *
-     * @throws \Laravel\Passport\Exceptions\MissingScopeException
+     * @throws \Lumen\Passport\Exceptions\MissingScopeException
      */
     abstract protected function validateScopes($token, $scopes);
 }

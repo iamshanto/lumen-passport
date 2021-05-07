@@ -3,7 +3,7 @@
 namespace Lumen\Passport\Console;
 
 use Illuminate\Console\Command;
-use Laravel\Passport\Passport;
+use Lumen\Passport\Passport;
 
 class HashCommand extends Command
 {

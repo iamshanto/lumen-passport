@@ -3,7 +3,7 @@
 namespace Lumen\Passport\Http\Middleware;
 
 use Illuminate\Auth\AuthenticationException;
-use Laravel\Passport\Exceptions\MissingScopeException;
+use Lumen\Passport\Exceptions\MissingScopeException;
 
 class CheckForAnyScope
 {
@@ -15,7 +15,7 @@ class CheckForAnyScope
      * @param  mixed  ...$scopes
      * @return \Illuminate\Http\Response
      *
-     * @throws \Illuminate\Auth\AuthenticationException|\Laravel\Passport\Exceptions\MissingScopeException
+     * @throws \Illuminate\Auth\AuthenticationException|\Lumen\Passport\Exceptions\MissingScopeException
      */
     public function handle($request, $next, ...$scopes)
     {

@@ -2,7 +2,7 @@
 
 namespace Lumen\Passport\Http\Controllers;
 
-use Laravel\Passport\Passport;
+use Lumen\Passport\Passport;
 
 class ScopeController
 {

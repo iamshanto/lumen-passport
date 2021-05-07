@@ -4,30 +4,30 @@ namespace Lumen\Passport\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Laravel\Passport\RefreshTokenRepository;
-use Laravel\Passport\TokenRepository;
+use Lumen\Passport\RefreshTokenRepository;
+use Lumen\Passport\TokenRepository;
 
 class AuthorizedAccessTokenController
 {
     /**
      * The token repository implementation.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \Lumen\Passport\TokenRepository
      */
     protected $tokenRepository;
 
     /**
      * The refresh token repository implementation.
      *
-     * @var \Laravel\Passport\RefreshTokenRepository
+     * @var \Lumen\Passport\RefreshTokenRepository
      */
     protected $refreshTokenRepository;
 
     /**
      * Create a new controller instance.
      *
-     * @param  \Laravel\Passport\TokenRepository  $tokenRepository
-     * @param  \Laravel\Passport\RefreshTokenRepository  $refreshTokenRepository
+     * @param  \Lumen\Passport\TokenRepository  $tokenRepository
+     * @param  \Lumen\Passport\RefreshTokenRepository  $refreshTokenRepository
      * @return void
      */
     public function __construct(TokenRepository $tokenRepository, RefreshTokenRepository $refreshTokenRepository)

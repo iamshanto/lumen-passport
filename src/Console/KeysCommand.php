@@ -4,7 +4,7 @@ namespace Lumen\Passport\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
-use Laravel\Passport\Passport;
+use Lumen\Passport\Passport;
 use phpseclib\Crypt\RSA as LegacyRSA;
 use phpseclib3\Crypt\RSA;
 

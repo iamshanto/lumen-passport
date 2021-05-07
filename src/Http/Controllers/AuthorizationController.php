@@ -5,10 +5,10 @@ namespace Lumen\Passport\Http\Controllers;
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Laravel\Passport\Bridge\User;
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Passport;
-use Laravel\Passport\TokenRepository;
+use Lumen\Passport\Bridge\User;
+use Lumen\Passport\ClientRepository;
+use Lumen\Passport\Passport;
+use Lumen\Passport\TokenRepository;
 use League\OAuth2\Server\AuthorizationServer;
 use Nyholm\Psr7\Response as Psr7Response;
 use Psr\Http\Message\ServerRequestInterface;
@@ -49,8 +49,8 @@ class AuthorizationController
      *
      * @param  \Psr\Http\Message\ServerRequestInterface  $psrRequest
      * @param  \Illuminate\Http\Request  $request
-     * @param  \Laravel\Passport\ClientRepository  $clients
-     * @param  \Laravel\Passport\TokenRepository  $tokens
+     * @param  \Lumen\Passport\ClientRepository  $clients
+     * @param  \Lumen\Passport\TokenRepository  $tokens
      * @return \Illuminate\Http\Response
      */
     public function authorize(ServerRequestInterface $psrRequest,
