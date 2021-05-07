@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Feature;
+namespace Lumen\Passport\Tests\Feature;
 
 use Illuminate\Contracts\Routing\Registrar;
 use Laravel\Passport\Client;

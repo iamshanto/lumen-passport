@@ -1,5 +1,5 @@
 {
-    "name": "laravel/passport",
+    "name": "iamshanto/lumen-passport",
     "description": "Fork Laravel Passport support to mongodb.",
     "keywords": ["laravel", "passport", "oauth", "mongodb"],
     "license": "MIT",
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Passport\\": "src/",
-            "Laravel\\Passport\\Database\\Factories\\": "database/factories/"
+            "Lumen\\Passport\\": "src/",
+            "Lumen\\Passport\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravel\\Passport\\Tests\\": "tests/"
+            "Lumen\\Passport\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -50,7 +50,7 @@
         },
         "laravel": {
             "providers": [
-                "Laravel\\Passport\\PassportServiceProvider"
+                "Lumen\\Passport\\PassportServiceProvider"
             ]
         }
     },

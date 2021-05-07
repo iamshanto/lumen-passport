@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Http\Controllers;
+namespace Lumen\Passport\Http\Controllers;
 
 use Laravel\Passport\TokenRepository;
 use Lcobucci\JWT\Parser as JwtParser;

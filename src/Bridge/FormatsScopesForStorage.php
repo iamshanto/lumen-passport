@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Bridge;
+namespace Lumen\Passport\Bridge;
 
 trait FormatsScopesForStorage
 {

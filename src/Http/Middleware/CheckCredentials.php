@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Http\Middleware;
+namespace Lumen\Passport\Http\Middleware;
 
 use Closure;
 use Illuminate\Auth\AuthenticationException;

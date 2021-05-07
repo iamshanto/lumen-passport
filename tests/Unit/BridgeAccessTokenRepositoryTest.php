@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace Lumen\Passport\Tests\Unit;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Contracts\Events\Dispatcher;

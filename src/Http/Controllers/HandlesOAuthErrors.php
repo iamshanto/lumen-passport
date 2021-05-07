@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Http\Controllers;
+namespace Lumen\Passport\Http\Controllers;
 
 use Laravel\Passport\Exceptions\OAuthServerException;
 use League\OAuth2\Server\Exception\OAuthServerException as LeagueException;

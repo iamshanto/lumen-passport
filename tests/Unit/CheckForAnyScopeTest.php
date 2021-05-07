@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace Lumen\Passport\Tests\Unit;
 
 use Laravel\Passport\Http\Middleware\CheckForAnyScope as CheckScopes;
 use Mockery as m;

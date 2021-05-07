@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport;
+namespace Lumen\Passport;
 
 use Carbon\Carbon;
 

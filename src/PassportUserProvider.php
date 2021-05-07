@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport;
+namespace Lumen\Passport;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\UserProvider;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Feature;
+namespace Lumen\Passport\Tests\Feature;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Contracts\Hashing\Hasher;

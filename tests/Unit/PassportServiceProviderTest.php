@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace Lumen\Passport\Tests\Unit;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Contracts\Foundation\Application as App;

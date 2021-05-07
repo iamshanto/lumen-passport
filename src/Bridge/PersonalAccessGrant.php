@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Bridge;
+namespace Lumen\Passport\Bridge;
 
 use DateInterval;
 use League\OAuth2\Server\Grant\AbstractGrant;

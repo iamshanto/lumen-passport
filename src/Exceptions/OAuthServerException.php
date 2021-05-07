@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Exceptions;
+namespace Lumen\Passport\Exceptions;
 
 use Exception;
 use Illuminate\Http\Response;

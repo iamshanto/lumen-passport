@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace Lumen\Passport\Tests\Unit;
 
 use Illuminate\Container\Container;
 use Laravel\Passport\HasApiTokens;

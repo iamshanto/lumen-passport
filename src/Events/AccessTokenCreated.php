@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Events;
+namespace Lumen\Passport\Events;
 
 class AccessTokenCreated
 {

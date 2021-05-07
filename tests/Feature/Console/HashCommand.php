@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Feature\Console;
+namespace Lumen\Passport\Tests\Feature\Console;
 
 use Illuminate\Contracts\Hashing\Hasher;
 use Illuminate\Support\Str;

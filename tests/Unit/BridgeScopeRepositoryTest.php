@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace Lumen\Passport\Tests\Unit;
 
 use Laravel\Passport\Bridge\Client;
 use Laravel\Passport\Bridge\Scope;

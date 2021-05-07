@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Bridge;
+namespace Lumen\Passport\Bridge;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Laravel\Passport\Events\RefreshTokenCreated;

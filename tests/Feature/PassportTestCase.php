@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Feature;
+namespace Lumen\Passport\Tests\Feature;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Foundation\Testing\RefreshDatabase;

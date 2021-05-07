@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace Lumen\Passport\Tests\Unit;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Encryption\Encrypter;

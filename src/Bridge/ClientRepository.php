@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Bridge;
+namespace Lumen\Passport\Bridge;
 
 use Laravel\Passport\ClientRepository as ClientModelRepository;
 use Laravel\Passport\Passport;

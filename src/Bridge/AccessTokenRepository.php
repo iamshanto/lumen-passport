@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Bridge;
+namespace Lumen\Passport\Bridge;
 
 use DateTime;
 use Illuminate\Contracts\Events\Dispatcher;

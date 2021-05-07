@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport;
+namespace Lumen\Passport;
 
 use Lcobucci\JWT\Parser as JwtParser;
 use League\OAuth2\Server\AuthorizationServer;

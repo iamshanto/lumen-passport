@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Console;
+namespace Lumen\Passport\Console;
 
 use Illuminate\Console\Command;
 use Laravel\Passport\Client;
